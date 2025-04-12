@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: apigateway
+  config:
+    import:
+      - optional:configserverrepo:http://configserverrepo:8888/
+
+
+server:
+  port: 8080
